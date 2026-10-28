@@ -1,9 +1,9 @@
-name: Media Stream Reup Pilot
+name: Fatytech Media Stream Reup
 
 on:
   schedule:
-    - cron: '15 23 * * *'  # 06:15 GMT+7
-    - cron: '15 14 * * *'  # 21:15 GMT+7
+    - cron: '45 23 * * *'  # 06:15 GMT+7
+    - cron: '45 14 * * *'  # 21:15 GMT+7
   workflow_dispatch:        # Manual trigger
 
 jobs:
